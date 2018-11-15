@@ -12,10 +12,12 @@
  *
  *= require_tree .
  *= require_self
+
  */
 
 
 @import "components/*";
+@import "bootstrap";
 
 
 html, body, #content {
