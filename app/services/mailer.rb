@@ -10,22 +10,23 @@ class Mailer
     def spammer()
 
         gmail = Gmail.connect(ENV['ID'], ENV['PASS'])
-        User.each do | key, value |
+        User.each do |user|
             gmail.deliver do
-                to value
+                to user.email
                 subject 'thp-copycat-test'
                 html_part do
                     content_type 'text/html; charset=UTF-8'
                     body "Bonjour"
                 end
             end
-            puts "Mail was sent to #{value}"
+            puts "Mail was sent to #{user}"
         end
         puts 'All mail was sent'
         puts 'Gmail will logout'
         gmail.logout
         puts 'Done'
     end
+
 
     def test_mail_sending()
             hash = { "MAIL" => "#{gets.chomp}" }
