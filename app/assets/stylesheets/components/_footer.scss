@@ -1,0 +1,38 @@
+/* FOOTER */
+
+#footer{
+  width: 100%;
+  background-color: white;
+  bottom: 0px;
+  position: fixed;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 10px;
+}
+
+.left{
+  color: rgb(102, 102, 102);
+  /*vertical-align: baseline;*/
+  float: left;
+  margin-left: 10px;
+}
+
+.right{
+  color: rgb(102, 102, 102);
+  /*vertical-align: baseline;*/
+
+  float: right;
+
+
+}
+
+
+
+.github {
+   height: 20px;
+   width: auto;
+   margin-right: 35px;
+   margin-left: 20px;
+}

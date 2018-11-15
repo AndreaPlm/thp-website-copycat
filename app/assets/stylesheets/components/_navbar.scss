@@ -1,0 +1,75 @@
+/* NAVBAR */
+@import url("//fonts.googleapis.com/css?family=Julius+Sans+One");
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url('http://www.gsfdcy.com/data/img/19/1328468-code-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
+  position: fixed;
+  }
+
+
+
+#navline {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  flex-wrap: nowrap;
+  margin-right: 50px;
+  margin-top: 50px;
+
+}
+
+.home {
+  height:50px;
+  width: auto;
+  left: 100px;
+  transition: transform .2s;
+}
+
+.home:hover {
+
+  transform: scale(1.25);
+}
+
+.who {
+
+    font-family: 'Julius Sans One';
+    /* padding: 10px 10px; */
+    display: inline;
+    height: inherit;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.link {
+    font-family: 'Julius Sans One';
+    /* padding: 10px 10px; */
+    display: inline;
+    height: inherit;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover {
+  color: #279cbd;
+  font-weight: bold;
+  text-decoration: none;
+
+
+}
