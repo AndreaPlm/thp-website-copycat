@@ -39,3 +39,13 @@ Client.create(
   email: "email_3",
   client_type: "company"
   )
+
+Client.create(
+  email: "potie.quentin@gmail.com",
+  client_type: "company"
+  )
+
+Client.create(
+  email: "iamdavehopper@gmail.com",
+  client_type: "student"
+  )
