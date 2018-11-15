@@ -10,7 +10,8 @@ class StaticController < ApplicationController
     client = Client.new
     client.email = params[:email]
     client.client_type = "student"
-    client.save
+    @client = client.save
+    ApplicationMailer.newsletter_email(Client.last).deliver
   end
 
   def lyon
@@ -21,6 +22,7 @@ class StaticController < ApplicationController
     client.email = params[:email]
     client.client_type = "town"
     client.save
+    ApplicationMailer.newsletter_email(Client.last).deliver
   end
 
   def corp
@@ -31,6 +33,7 @@ class StaticController < ApplicationController
     client.email = params[:email]
     client.client_type = "company"
     client.save
+    ApplicationMailer.newsletter_email(Client.last).deliver
   end
 
 end

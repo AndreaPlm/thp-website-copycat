@@ -4,6 +4,12 @@ class ApplicationMailer < ActionMailer::Base
 
   def newsletter_email(client)
     @client = client
-    mail(to: @client.email, subject: 'Email test copycat')
+    mail(to: @client.email, subject: 'Newsletter thp')
   end
+
+  def subscribe_email(client)
+    @client = client
+    mail(to: @client.email, subject: 'Inscription newsletter thp')
+  end
+
 end
