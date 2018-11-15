@@ -10,4 +10,6 @@ Mais on a quand même :
 
 * Une inscription à une newsletter (seulement l'inscription...)
 
+* Un envoi de mails possible avec rails mailer et gmail
+
 * ...
