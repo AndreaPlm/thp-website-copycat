@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 0) do
 <<<<<<< HEAD
   create_table "clients", force: :cascade do |t|
     t.string "email"
-    t.string "type"
+    t.string "client_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
