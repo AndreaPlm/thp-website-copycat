@@ -1,6 +1,14 @@
 class StaticController < ApplicationController
-  def send_email
-    Mailer.new.send_newsletters
+
+  def index
   end
 
+  def students
+  end
+
+  def lyon
+  end
+
+  def corp
+  end
 end

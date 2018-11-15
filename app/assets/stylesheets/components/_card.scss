@@ -1,0 +1,53 @@
+
+
+/* Add some padding inside the card container */
+@import url("//fonts.googleapis.com/css?family=M+PLUS+1p");
+@import url("//fonts.googleapis.com/css?family=Space+Mono");
+
+
+.container, .avatar {
+   padding: 2px 16px;
+
+  }
+
+.card {
+  width: auto;
+  transition: 0.3s;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+*/
+
+.tabcontent{
+  column-count: 2;
+
+
+}
+
+.container{
+  column-span: 1;
+  height: inherit;
+  text-align: right;
+
+
+
+}
+
+h4 {
+  font-family: 'M PLUS 1p';
+  font-variant: small-caps;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+p {
+  font-family: 'M PLUS 1p';
+  text-decoration: underline;
+}
