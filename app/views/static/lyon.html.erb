@@ -1,0 +1,7 @@
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<%= form_tag("/lyon", method: "post") do %>
+  <%= label_tag(:email, "Email :") %>
+  <%= text_field_tag(:email) %>
+  <%= submit_tag("Recevoir la newsletter") %>
+<% end %>
