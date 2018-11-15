@@ -30,7 +30,7 @@ https://hebdo.framapad.org/p/thp-lp
 
 ## Ce qu'il manque :
 
-* WrapBootstrap : chez nous c'est de l'artisanal !!
+* WrapBootstrap : chez nous c'est de l'artisanal !! (genre comme ça : https://www.youtube.com/watch?v=i_vLGL5L6pc&t=910s)
 
 * Les newsletters régulières avec le Heroku Scheduler
 

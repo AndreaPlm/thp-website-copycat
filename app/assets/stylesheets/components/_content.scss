@@ -15,13 +15,28 @@ html, body{
 
 
 
+
 #content {
-  background-color: white;
+  background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
   max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+
+#content01 {
+  background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .main-title {
   font-family: 'Julius Sans One';
