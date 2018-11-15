@@ -1,24 +1,21 @@
-# README
+# JOURNEE D'ECHECS, PAS LE JEU HEIN !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Quand ça veut pas, ça veut pas !
 
-Things you may want to cover:
+## Mais on a quand même :
 
-* Ruby version
+* UN README !!
 
-* System dependencies
+* Un site avec 3 landing page pour 3 différentes cibles (étudiants, entreprises et villes) même si elles sont pareil !
 
-* Configuration
+* Une inscription à une newsletter avec un email d'accueil
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Un envoi de mails possible avec rails mailer et gmail
 
 * ...
+
+## Configuration avant de lancer le site en mode rails server :
+
+Créer un fichier application.yml dans /config et y rentrer ses identifiants gmail comme suit :
+  gmail_username: 'username'
+  gmail_password: 'password'

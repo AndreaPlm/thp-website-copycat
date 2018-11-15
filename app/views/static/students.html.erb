@@ -1,7 +1,31 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="content">
+    <h1 class="main-title">Coucou les étudiants</h1>
+    <div class="msg-wrapper">
+        <div class="green-msg-bubble">
+            Alors cette piscine ?
+        </div>
+        <div class="blue-msg-bubble">
+            J'ai bu la tasse xD
+        </div>
+        <div class="green-msg-bubble">
+            Moi aussi, tu connais THP ? C'est pareil mais en mieux <br>
+            Va voir sur <a href="https://www.thehackingproject.org/">www.thehackingproject.org</a> ya toutes les infos
+        </div>
+        <div class="blue-msg-bubble">
+            Ah ouais trop cool ! Je m'inscris tout de suite !
+        </div>
+    </div>
 
-<%= form_tag("/students", method: "post") do %>
-  <%= label_tag(:email, "Email :") %>
-  <%= text_field_tag(:email) %>
-  <%= submit_tag("Recevoir la newsletter") %>
-<% end %>
+
+
+    <div class="form-wrapper">
+      <p>Entre ton mail ici pour recevoir les dernières infos.</p>
+      <%= form_tag("/students", method: "post", class: "form") do %>
+          <%= label_tag(:email, "Email :") %>
+          <%= text_field_tag(:email) %>
+          <%= submit_tag("Recevoir la newsletter") %>
+      <% end %>
+    </div>
+
+
+</div>
