@@ -51,9 +51,9 @@ https://hebdo.framapad.org/p/thp-lp
     gmail_username: 'username'
     gmail_password: 'password'
 
-* Activer l'IMAP
+* Activer l'IMAP dans gmail
 
-* Activer "Accès moins sécurisé des applications" https://myaccount.google.com/lesssecureapps
+* Activer "Accès moins sécurisé des applications" dans gmail https://myaccount.google.com/lesssecureapps
 
 * Tu connais la suite : rails server et http://localhost:3000/ dans ton navigateur préféré
 
