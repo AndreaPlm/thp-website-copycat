@@ -27,17 +27,12 @@
 
 }
 
-.home {
-  height:50px;
+.menu {
+  border-radius: 50%;
   width: auto;
-  left: 100px;
-  transition: transform .2s;
+  height: 50px;
 }
 
-.home:hover {
-
-  transform: scale(1.25);
-}
 
 .who {
 

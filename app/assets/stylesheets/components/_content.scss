@@ -15,21 +15,36 @@ html, body{
 
 
 
+
 #content {
-  background-color: white;
+  background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
   max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.teamheader {
+
+#content01 {
+  background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.main-title {
   font-family: 'Julius Sans One';
   text-align: center;
   font-size: 70px;
-  margin-top: 30%;
+  margin-top: 15%;
   margin-bottom: 40px;
-  color: white;
+  color: black;
 
 }
 .wrapper-content{
@@ -45,13 +60,49 @@ html, body{
   text-align: justify;
   padding: 20px 20px;
   max-width: 50%;
-  border-radius:30px 0 30px 0;
-  background: rgba(250, 250, 250, 0.5);
+  border-radius:30px 30px 30px 0;
+  background: rgba(33, 179, 38, 0.5);
   display: flex;
   align-items: center;
 
 }
 
+.msg-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.green-msg-bubble{
+  font-family: 'M PLUS 1p';
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: auto;
+  border-radius:30px 30px 30px 0;
+  background: rgba(33, 179, 38, 0.6);
+  float: left;
+  margin-top: 10px;
+
+}
+
+.blue-msg-bubble{
+  font-family: 'M PLUS 1p';
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: auto;
+  border-radius:30px 30px 0 30px;
+  background: rgba(33, 135, 179, 0.6);
+  float:right;
+  margin-top: 10px;
+  text-align: right;
+
+}
+
+
 .wrapper-img{
   float: right;
+}
+
+p {
+
 }
