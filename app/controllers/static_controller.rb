@@ -10,8 +10,9 @@ class StaticController < ApplicationController
     client = Client.new
     client.email = params[:email]
     client.client_type = "student"
-    @client = client.save
-    ApplicationMailer.newsletter_email(Client.last).deliver
+    client = client.save
+    if Client.find_by(email: params[:email])
+      ApplicationMailer.newsletter_email(Client.find_by(email: params[:email])).deliver
   end
 
   def lyon

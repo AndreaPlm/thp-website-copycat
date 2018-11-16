@@ -1,19 +1,8 @@
 # Define parameters
-nb_students = 50
+nb_students = 5
 nb_towns = 5
-nb_companies = 10
+nb_companies = 5
 
-Client.create(
-  email: "potie.quentin@gmail.com",
-  client_type: "student"
-  )
-
-Client.create(
-  email: "iamdavehopper@gmail.com",
-  client_type: "company"
-  )
-
-=begin
 
 # Create clients "student" town company
 nb_students.times do |i|
@@ -61,5 +50,3 @@ Client.create(
   email: "iamdavehopper@gmail.com",
   client_type: "student"
   )
-
-=end
