@@ -51,15 +51,15 @@ https://hebdo.framapad.org/p/thp-lp
     gmail_username: 'username'
     gmail_password: 'password'
 
-* Activer l'IMAP
+* Activer l'IMAP dans gmail
 
-* Activer "Accès moins sécurisé des applications" https://myaccount.google.com/lesssecureapps
+* Activer "Accès moins sécurisé des applications" dans gmail https://myaccount.google.com/lesssecureapps
 
 * Tu connais la suite : rails server et http://localhost:3000/ dans ton navigateur préféré
 
 ## HEROKU ES-TU LA ?
 
-....non.... 01h57m58s SI !!!
+....non.... 01h57m58s SI !!! sauf que la sécurité gmail à l'air de bloqué l'envoi de mail.... la PROD quand même :
 https://thp-lyon-copycat.herokuapp.com/
 
 Spéciale dédicace à Lucien PASSERA, Nicolas Cousin et Soraya Fructuoso.
