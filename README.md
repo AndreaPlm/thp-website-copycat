@@ -1,4 +1,4 @@
-# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse...
+# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse... 01h27m37s et la communanté nocturne nous aide sur heroku !
 
 Quand ça veut pas, ça veut pas !
 
@@ -25,6 +25,8 @@ https://hebdo.framapad.org/p/thp-lp
 * Une inscription à une newsletter avec un email d'accueil
 
 * Un envoi de mails possible avec rails mailer et gmail (mais pas encore raccordé à cet instant - de quel instant on parle là ?)
+
+* Test model Client
 
 * ...
 
@@ -54,3 +56,7 @@ https://hebdo.framapad.org/p/thp-lp
 * Activer "Accès moins sécurisé des applications" https://myaccount.google.com/lesssecureapps
 
 * Tu connais la suite : rails server et http://localhost:3000/ dans ton navigateur préféré
+
+## HEROKU ES-TU LA ?
+
+....non
