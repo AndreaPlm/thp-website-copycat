@@ -59,7 +59,7 @@ https://hebdo.framapad.org/p/thp-lp
 
 ## HEROKU ES-TU LA ?
 
-....non.... 01h57m58s SI !!!
+....non.... 01h57m58s SI !!! sauf que la sécurité gmail à l'air de bloqué l'envoi de mail.... la PROD quand même :
 https://thp-lyon-copycat.herokuapp.com/
 
 Spéciale dédicace à Lucien PASSERA, Nicolas Cousin et Soraya Fructuoso.
