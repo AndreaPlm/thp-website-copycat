@@ -1,4 +1,4 @@
-# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse...
+# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse... 01h27m37s et la communanté nocturne nous aide sur heroku !
 
 Quand ça veut pas, ça veut pas !
 
