@@ -20,11 +20,12 @@ https://hebdo.framapad.org/p/thp-lp
 
 * Un repos Github : c'est la base quand même, avec des commits dans tous les sens
 
-* Un site avec 3 landing page pour 3 différentes cibles (étudiants, entreprises et villes) même si elles sont pareilles (ça c'était à 23h26m19s mais maintenant qu'il est 23h43m50s on en a une différente wouhou) !
+* Un site avec 3 landing page pour 3 différentes cibles (étudiants, entreprises et villes) même si elles sont pareilles (ça c'était à 23h26m19s mais maintenant qu'il est 23h43m50s on en a une différente wouhou) ! --> à 2h du mat on a 3 landings page de OUF
 
-* Une inscription à une newsletter avec un email d'accueil
+* Une inscription à une newsletter avec un email qui valide l'inscription
 
-* Un envoi de mails possible avec rails mailer et gmail (mais pas encore raccordé à cet instant - de quel instant on parle là ?)
+* Un service qui envoi des newsletter tous les X (en l'occurence toutes les 24h) aux users en DB, via heroku scheduler
+(YES YES YES IL EST 3h51)
 
 * Test model Client
 
@@ -34,14 +35,14 @@ https://hebdo.framapad.org/p/thp-lp
 
 * WrapBootstrap : chez nous c'est de l'artisanal !! (genre comme ça : https://www.youtube.com/watch?v=i_vLGL5L6pc&t=910s)
 
-* Les newsletters régulières avec le Heroku Scheduler
+* Les metrics
 
 * Au moins 2 opérations marketing... marketing c'est quoi ça ? c'est pas super éthique non ? On zap !
 
 * les API, les................................. DODO
 
 
-## Configuration avant de lancer le site en mode rails server vu que heroku ne fonctionne pas encore. Normalement il faudrait que tu fasses ça !!! ::
+### Configuration avant de lancer le site en mode rails server vu que heroku ne fonctionne pas encore. Normalement il faudrait que tu fasses ça !!! ::  EDIT : ET BEN SI LE HEROKU MARCHE WESH cf la fin du README
 
 * classique bundle install
 
@@ -62,4 +63,8 @@ https://hebdo.framapad.org/p/thp-lp
 ....non.... 01h57m58s SI !!! sauf que la sécurité gmail à l'air de bloqué l'envoi de mail.... la PROD quand même :
 https://thp-lyon-copycat.herokuapp.com/
 
-Spéciale dédicace à Lucien PASSERA, Nicolas Cousin et Soraya Fructuoso.
+**CA MARCHE CA MARCHE 2h55 LA PROD MARCHE AVEC ENVOI DE MAILS**
+
+## https://thp-lyon-copycat.herokuapp.com/
+
+Spéciale dédicace à Lucien PASSERA, Nicolas Cousin et Soraya Fructuoso qui nous ont bien aidé sur le slack !
