@@ -14,7 +14,4 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-<<<<<<< HEAD
-=======
 //= require bootstrap
->>>>>>> master
