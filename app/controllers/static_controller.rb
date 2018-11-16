@@ -12,7 +12,8 @@ class StaticController < ApplicationController
     client.client_type = "student"
     client = client.save
     if Client.find_by(email: params[:email])
-      ApplicationMailer.newsletter_email(Client.find_by(email: params[:email])).deliver
+      ApplicationMailer.subscribe_email(Client.find_by(email: params[:email])).deliver
+    end
   end
 
   def lyon
@@ -22,8 +23,10 @@ class StaticController < ApplicationController
     client = Client.new
     client.email = params[:email]
     client.client_type = "town"
-    client.save
-    ApplicationMailer.newsletter_email(Client.last).deliver
+    client = client.save
+    if Client.find_by(email: params[:email])
+      ApplicationMailer.subscribe_email(Client.find_by(email: params[:email])).deliver
+    end
   end
 
   def corp
@@ -33,8 +36,10 @@ class StaticController < ApplicationController
     client = Client.new
     client.email = params[:email]
     client.client_type = "company"
-    client.save
-    ApplicationMailer.newsletter_email(Client.last).deliver
+    client = client.save
+    if Client.find_by(email: params[:email])
+      ApplicationMailer.subscribe_email(Client.find_by(email: params[:email])).deliver
+    end
   end
 
 end
