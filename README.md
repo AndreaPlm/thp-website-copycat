@@ -59,4 +59,7 @@ https://hebdo.framapad.org/p/thp-lp
 
 ## HEROKU ES-TU LA ?
 
-....non
+....non.... 01h57m58s SI !!!
+https://thp-lyon-copycat.herokuapp.com/
+
+Spéciale dédicace à Lucien PASSERA, Nicolas Cousin et Soraya Fructuoso.
