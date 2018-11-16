@@ -1,7 +1,32 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="content">
 
-<%= form_tag("/corp", method: "post") do %>
-  <%= label_tag(:email, "Email :") %>
-  <%= text_field_tag(:email) %>
-  <%= submit_tag("Recevoir la newsletter") %>
-<% end %>
+    <h1 class="main-title">Coucou les business.wo.men</h1>
+    <div class="msg-wrapper">
+        <div class="green-msg-bubble">
+           Il est comment ton stagiaire dev ?
+        </div>
+        <div class="blue-msg-bubble">
+            Pas aussi bien que ta licorne.
+        </div>
+        <div class="green-msg-bubble">
+            Ouais je sais, elle vient de chez THP 8) <br>
+            Va voir sur <a href="https://www.thehackingproject.org/">www.thehackingproject.org</a> ya toutes les infos
+        </div>
+        <div class="blue-msg-bubble">
+            Merci, j'y enverrai peut etre le mien en formation ;)
+        </div>
+    </div>
+
+
+        <div class="form-wrapper">
+          <p>Entre ton mail ici pour recevoir les dernières infos.</p>
+
+          <%= form_tag("/corp", method: "post") do %>
+            <%= label_tag(:email, "Email :") %>
+            <%= text_field_tag(:email) %>
+            <%= submit_tag("Recevoir la newsletter") %>
+          <% end %>
+        </div>
+
+
+    </div>
