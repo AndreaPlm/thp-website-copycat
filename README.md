@@ -1,4 +1,4 @@
-# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse... 01h27m37s et la communanté nocturne nous aide sur heroku !
+# JOURNEE D'ECHECS, PAS LE JEU HEIN ! Mais il est 23h26m19s et on progresse... 01h27m37s et la communanté nocturne nous aide sur heroku ! 02h30m26s on a un site en ligne mais gmail fait des siennes... 03h51m00s LE MAILING MARCHE EN PROD ! C'EST BEAU
 
 Quand ça veut pas, ça veut pas !
 
