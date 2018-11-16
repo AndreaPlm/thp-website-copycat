@@ -1,7 +1,34 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<%= form_tag("/lyon", method: "post") do %>
-  <%= label_tag(:email, "Email :") %>
-  <%= text_field_tag(:email) %>
-  <%= submit_tag("Recevoir la newsletter") %>
-<% end %>
+
+<div id="content">
+
+    <h1 class="main-title">Coucou les lyonnais.e.s</h1>
+    <div class="msg-wrapper">
+        <div class="green-msg-bubble">
+           Tu vas à Tuba demain matin ?
+        </div>
+        <div class="blue-msg-bubble">
+          Grave! En plus y aura encore toute la bande de THP
+        </div>
+        <div class="green-msg-bubble">
+            J'avoue que ça a l'air grave cool ce qu'ils font  <br>
+            Va voir sur <a href="https://www.thehackingproject.org/">www.thehackingproject.org</a> ya toutes les infos
+        </div>
+        <div class="blue-msg-bubble">
+            Allez demain on commence la semaine 0 :)
+        </div>
+    </div>
+
+
+        <div class="form-wrapper">
+          <p>Entre ton mail ici pour recevoir les dernières infos.</p>
+
+          <%= form_tag("/lyon", method: "post") do %>
+            <%= label_tag(:email, "Email :") %>
+            <%= text_field_tag(:email) %>
+            <%= submit_tag("Recevoir la newsletter") %>
+          <% end %>
+        </div>
+
+
+    </div>
