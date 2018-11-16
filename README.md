@@ -26,6 +26,8 @@ https://hebdo.framapad.org/p/thp-lp
 
 * Un envoi de mails possible avec rails mailer et gmail (mais pas encore raccordé à cet instant - de quel instant on parle là ?)
 
+* Test model Client
+
 * ...
 
 ## Ce qu'il manque :
@@ -54,3 +56,7 @@ https://hebdo.framapad.org/p/thp-lp
 * Activer "Accès moins sécurisé des applications" https://myaccount.google.com/lesssecureapps
 
 * Tu connais la suite : rails server et http://localhost:3000/ dans ton navigateur préféré
+
+## HEROKU ES-TU LA ?
+
+....non
